@@ -5,7 +5,6 @@ import Quiz from "../Quiz/Quiz";
 const Quizes = () => {
   const loaderData = useLoaderData();
   const { total, name, questions } = loaderData.data;
-  console.log(loaderData);
   return (
     <div className="m-6 w-2/3 mx-auto">
       <div className="text-center">
