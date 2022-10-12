@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Topic = ({ topic }) => {
   const { id, name, logo, total } = topic;
-  console.log(id);
+  // console.log(id);
   return (
     <div className="max-w-sm border-amber-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
       <img className="rounded-t-lg bg-yellow-300" src={logo} alt="" />

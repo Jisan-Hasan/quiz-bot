@@ -11,7 +11,7 @@ const Statistics = () => {
     const singleData = { name: quiz.name, total: quiz.total };
     data.push(singleData);
   });
-  console.log(topicsData);
+  // console.log(topicsData);
   return (
     <div className="text-center">
       <h2 className="text-2xl font-bold text-yellow-300">
