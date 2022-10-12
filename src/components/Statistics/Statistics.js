@@ -18,7 +18,7 @@ const Statistics = () => {
         Statistics of the Quizes
       </h2>
       <div className="flex justify-center mt-12">
-        <ResponsiveContainer width={400} height={400}>
+        <ResponsiveContainer width={380} height={400}>
           <BarChart data={data}>
             <Bar dataKey="total" fill="#8884d8" />
             <XAxis dataKey="name" />
